@@ -28,6 +28,7 @@ class _PostState extends State<Post> {
 
     ],
 
+
     ),
     body:BlocBuilder<PostsBloc,PostState>(
       builder: (context,state){
